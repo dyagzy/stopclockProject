@@ -67,7 +67,7 @@ function stopWatch(){
 
 function startStop(){
   if (status === "stopped"){
-    interval = window.setInterval(stopWatch, 100);
+    interval = window.setInterval(stopWatch, 1000);
     document.getElementById("startStop").innerHTML = "Stop";
     status= "started";
   }
